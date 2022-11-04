@@ -3,6 +3,22 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: cornflowerblue;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+    align-items: center;
+    background-color: dimgray;
+
+}
 span{
     color: blueviolet;
     font-weight: bold;
@@ -20,7 +36,6 @@ p{
 div{
     height: 600px;
     width: 800px;
-    background-color: brown;
 
 }
 
