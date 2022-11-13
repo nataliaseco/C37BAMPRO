@@ -1,8 +1,14 @@
 *{
+    margin: 0;
+    padding: 0;
     background: lightblue;
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
 body{
     background-color: cornflowerblue;
     color: black;
@@ -17,8 +23,30 @@ header{
     padding: 10px;
     align-items: center;
     background-color: dimgray;
+}
+
+.header{
+    background-color: white;
+    color: black;
+    height: 80px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
 
 }
+
+#portada{
+    width: 70px;
+    background: burlywood;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.destacado{
+    background: pink;
+    padding: 0.7px;
+}
+
 span{
     color: blueviolet;
     font-weight: bold;
@@ -44,4 +72,47 @@ img{
     margin-left: 25px;
     background-color: blue;
     padding-top: 50px;
+}
+.logo{
+    text-transform: uppercase;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navbar{
+    background: yellowgreen;
+    color: white;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul{
+    text-align: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.navbar ul li a:hover {
+    background: white;
+    color: blueviolet;
+
+}
+
+footer{
+
 }
